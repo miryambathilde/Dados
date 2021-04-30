@@ -1,7 +1,8 @@
 
 <div class="jumbotron text-center">
-  <button class="btn btn-success btn-lg mt 4">Iniciar tirada</button>
+  <!-- evento click con metodo tirarDados -->
+  <button class="btn btn-success btn-lg mt 4" (click)="tirarDados()">Iniciar tirada</button>
   <br>
-  <img class="img" src="../assets/img/dice1.png">
-  <img class="img" src="../assets/img/dice4.png">
+  <img class="img" [src]="dadoIzquierda">
+  <img class="img" [src]="dadoDerecha">
 </div>
