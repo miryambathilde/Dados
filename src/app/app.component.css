@@ -1,0 +1,11 @@
+.btn.btn-success {
+  margin-top: 30px;
+}
+
+.img {
+  width: 220px;
+  height: 220px;
+  margin: 40px;
+  background-color: rgb(6, 99, 63);
+  border-radius: 10px;
+}
