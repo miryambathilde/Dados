@@ -5,4 +5,9 @@
   <br>
   <img class="img" [src]="dadoIzquierda">
   <img class="img" [src]="dadoDerecha">
+  <br>
+  <br>
+  <!-- https://getbootstrap.com/docs/5.0/components/badge/ -->
+  <!-- como queremos que solo se muestre cuando los dos dados sean igual usamos *ngIf -->
+  <h2 *ngIf="numero1 === numero2"><span class="badge bg-success">¡Has ganado!</span></h2>
 </div>
