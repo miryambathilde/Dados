@@ -23,3 +23,5 @@ ng serve --o (para que se abra automaticamente)
 para pasar a producción:
 
 ng build --prod
+
+-------------
